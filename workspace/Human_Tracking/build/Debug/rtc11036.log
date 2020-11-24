@@ -1,0 +1,16 @@
+[0m[34mAug 10 05:54:55.016 INFO: manager: [0m1.1.2
+[0m[34mAug 10 05:54:55.016 INFO: manager: [0mCopyright (C) 2003-2014
+[0m[34mAug 10 05:54:55.016 INFO: manager: [0m  Noriaki Ando
+[0m[34mAug 10 05:54:55.016 INFO: manager: [0m  Intelligent Systems Research Institute, AIST
+[0m[34mAug 10 05:54:55.017 INFO: manager: [0mManager starting.
+[0m[34mAug 10 05:54:55.017 INFO: manager: [0mStarting local logging.
+[0m[34mAug 10 05:54:55.119 INFO: NamingOnCorba: [0mEndpoint for the CORBA naming service (localhost) is 127.0.0.1.
+[0m[34mAug 10 05:54:55.119 INFO: NamingManager: [0mNameServer connection succeeded: corba/localhost
+[0m[34mAug 10 05:54:57.158 INFO: ManagerServant: [0mMaster manager not found
+[0m[34mAug 10 06:12:34.704 INFO: NamingManager: [0mName server: localhost (corba) disappeared.
+[0m[34mAug 10 06:12:46.779 INFO: NamingManager: [0mNameServer connection failed: corba/localhost
+[0m[34mAug 10 06:12:58.856 INFO: NamingManager: [0mNameServer connection failed: corba/localhost
+[0m[34mAug 10 06:13:10.933 INFO: NamingManager: [0mNameServer connection failed: corba/localhost
+[0m[34mAug 10 06:13:23.012 INFO: NamingManager: [0mNameServer connection failed: corba/localhost
+[0m[34mAug 10 06:13:35.092 INFO: NamingManager: [0mNameServer connection failed: corba/localhost
+[0m[34mAug 10 06:13:47.181 INFO: NamingManager: [0mNameServer connection failed: corba/localhost
