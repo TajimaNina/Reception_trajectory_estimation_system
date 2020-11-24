@@ -1,0 +1,86 @@
+[0m[34mNov 20 05:36:52.517 INFO: manager: [0m1.1.2
+[0m[34mNov 20 05:36:52.518 INFO: manager: [0mCopyright (C) 2003-2014
+[0m[34mNov 20 05:36:52.518 INFO: manager: [0m  Noriaki Ando
+[0m[34mNov 20 05:36:52.518 INFO: manager: [0m  Intelligent Systems Research Institute, AIST
+[0m[34mNov 20 05:36:52.518 INFO: manager: [0mManager starting.
+[0m[34mNov 20 05:36:52.518 INFO: manager: [0mStarting local logging.
+[0m[34mNov 20 05:36:52.540 INFO: NamingOnCorba: [0mEndpoint for the CORBA naming service (localhost) is 127.0.0.1.
+[0m[34mNov 20 05:36:52.540 INFO: NamingManager: [0mNameServer connection succeeded: corba/localhost
+[0m[34mNov 20 05:36:56.572 INFO: ManagerServant: [0mMaster manager not found
+[0m[33mNov 20 05:37:04.764 WARNING: SdoServiceAdmin: [0mNo available SDO service in the factory: 
+[0m[33mNov 20 05:37:04.796 WARNING: SdoServiceAdmin: [0mNo available SDO service in the factory: IDL:OpenRTM/ComponentObserver:1.0
+[0m[35mNov 20 05:37:57.491 ERROR: human_dataX: [0mconnectNext() in notify_connect() failed.
+[0m[35mNov 20 05:37:57.493 ERROR: InPortCorbaCdrConsumer: [0minport_ior not found
+[0m[35mNov 20 05:37:57.493 ERROR: InPortCorbaCdrConsumer: [0minport_ref not found
+[0m[35mNov 20 05:37:57.493 ERROR: human_dataX: [0minterface subscription failed.
+[0m[35mNov 20 05:37:57.494 ERROR: human_dataX: [0msubscribeInterfaces() in notify_connect() failed.
+[0m[35mNov 20 05:37:57.494 ERROR: human_dataX: [0mConnection failed. cleanup.
+[0m[35mNov 20 05:37:57.494 ERROR: human_dataX: [0mspecified connector not found: 957df8a2-035f-4505-8a1f-ea0a57bdcc46
+[0m[35mNov 20 05:37:57.758 ERROR: human_dataY: [0mconnectNext() in notify_connect() failed.
+[0m[35mNov 20 05:37:57.760 ERROR: InPortCorbaCdrConsumer: [0minport_ior not found
+[0m[35mNov 20 05:37:57.760 ERROR: InPortCorbaCdrConsumer: [0minport_ref not found
+[0m[35mNov 20 05:37:57.760 ERROR: human_dataY: [0minterface subscription failed.
+[0m[35mNov 20 05:37:57.760 ERROR: human_dataY: [0msubscribeInterfaces() in notify_connect() failed.
+[0m[35mNov 20 05:37:57.760 ERROR: human_dataY: [0mConnection failed. cleanup.
+[0m[35mNov 20 05:37:57.761 ERROR: human_dataY: [0mspecified connector not found: 00b4b891-8c62-43eb-b3db-780ea4c0e5df
+[0m[35mNov 20 05:37:58.034 ERROR: human_edge1x: [0mconnectNext() in notify_connect() failed.
+[0m[35mNov 20 05:37:58.036 ERROR: InPortCorbaCdrConsumer: [0minport_ior not found
+[0m[35mNov 20 05:37:58.036 ERROR: InPortCorbaCdrConsumer: [0minport_ref not found
+[0m[35mNov 20 05:37:58.036 ERROR: human_edge1x: [0minterface subscription failed.
+[0m[35mNov 20 05:37:58.036 ERROR: human_edge1x: [0msubscribeInterfaces() in notify_connect() failed.
+[0m[35mNov 20 05:37:58.036 ERROR: human_edge1x: [0mConnection failed. cleanup.
+[0m[35mNov 20 05:37:58.037 ERROR: human_edge1x: [0mspecified connector not found: e23744b1-0bc7-44f7-8f39-1f1fbd6a5e8e
+[0m[35mNov 20 05:37:58.312 ERROR: human_edge1y: [0mconnectNext() in notify_connect() failed.
+[0m[35mNov 20 05:37:58.314 ERROR: InPortCorbaCdrConsumer: [0minport_ior not found
+[0m[35mNov 20 05:37:58.314 ERROR: InPortCorbaCdrConsumer: [0minport_ref not found
+[0m[35mNov 20 05:37:58.314 ERROR: human_edge1y: [0minterface subscription failed.
+[0m[35mNov 20 05:37:58.314 ERROR: human_edge1y: [0msubscribeInterfaces() in notify_connect() failed.
+[0m[35mNov 20 05:37:58.314 ERROR: human_edge1y: [0mConnection failed. cleanup.
+[0m[35mNov 20 05:37:58.314 ERROR: human_edge1y: [0mspecified connector not found: 34d42e5d-f21a-4512-8b44-0bbe008a7349
+[0m[35mNov 20 05:37:58.578 ERROR: human_edge2x: [0mconnectNext() in notify_connect() failed.
+[0m[35mNov 20 05:37:58.580 ERROR: InPortCorbaCdrConsumer: [0minport_ior not found
+[0m[35mNov 20 05:37:58.580 ERROR: InPortCorbaCdrConsumer: [0minport_ref not found
+[0m[35mNov 20 05:37:58.580 ERROR: human_edge2x: [0minterface subscription failed.
+[0m[35mNov 20 05:37:58.580 ERROR: human_edge2x: [0msubscribeInterfaces() in notify_connect() failed.
+[0m[35mNov 20 05:37:58.581 ERROR: human_edge2x: [0mConnection failed. cleanup.
+[0m[35mNov 20 05:37:58.581 ERROR: human_edge2x: [0mspecified connector not found: dbd64a0a-27c1-4308-935b-59fe893dda4f
+[0m[35mNov 20 05:37:58.843 ERROR: human_edge2y: [0mconnectNext() in notify_connect() failed.
+[0m[35mNov 20 05:37:58.845 ERROR: InPortCorbaCdrConsumer: [0minport_ior not found
+[0m[35mNov 20 05:37:58.845 ERROR: InPortCorbaCdrConsumer: [0minport_ref not found
+[0m[35mNov 20 05:37:58.845 ERROR: human_edge2y: [0minterface subscription failed.
+[0m[35mNov 20 05:37:58.845 ERROR: human_edge2y: [0msubscribeInterfaces() in notify_connect() failed.
+[0m[35mNov 20 05:37:58.845 ERROR: human_edge2y: [0mConnection failed. cleanup.
+[0m[35mNov 20 05:37:58.846 ERROR: human_edge2y: [0mspecified connector not found: b6418716-2ec3-4733-96bd-8ae1ce36878e
+[0m[35mNov 20 05:37:59.105 ERROR: people_wait: [0mconnectNext() in notify_connect() failed.
+[0m[35mNov 20 05:37:59.106 ERROR: InPortCorbaCdrConsumer: [0minport_ior not found
+[0m[35mNov 20 05:37:59.106 ERROR: InPortCorbaCdrConsumer: [0minport_ref not found
+[0m[35mNov 20 05:37:59.106 ERROR: people_wait: [0minterface subscription failed.
+[0m[35mNov 20 05:37:59.107 ERROR: people_wait: [0msubscribeInterfaces() in notify_connect() failed.
+[0m[35mNov 20 05:37:59.107 ERROR: people_wait: [0mConnection failed. cleanup.
+[0m[35mNov 20 05:37:59.107 ERROR: people_wait: [0mspecified connector not found: c2bcd6a2-caeb-47b0-bcd4-b45b399a31aa
+[0m[33mNov 20 06:20:31.363 WARNING: human_dataX: [0mDead connection: ad025955-9079-4512-8e23-397ae9dff919
+[0m[33mNov 20 06:20:33.370 WARNING: human_dataX: [0mException caught: minor code.
+[0m[33mNov 20 06:20:35.388 WARNING: human_dataY: [0mDead connection: f7d8ebe2-8d57-4d6b-8b70-f4ebd903a236
+[0m[33mNov 20 06:20:37.400 WARNING: human_dataY: [0mDead connection: fbd09b2d-e6b7-455a-a2af-881f3afe3026
+[0m[33mNov 20 06:20:39.402 WARNING: human_dataY: [0mException caught: minor code.
+[0m[33mNov 20 06:20:41.408 WARNING: human_dataY: [0mException caught: minor code.
+[0m[33mNov 20 06:20:43.412 WARNING: human_edge1x: [0mDead connection: a6f0229a-5413-4dbb-b5ee-a6da58b94cd8
+[0m[33mNov 20 06:20:45.417 WARNING: human_edge1x: [0mDead connection: 30d6c141-ca8c-48fa-a733-f1caf898bb2f
+[0m[33mNov 20 06:20:47.428 WARNING: human_edge1x: [0mException caught: minor code.
+[0m[33mNov 20 06:20:49.437 WARNING: human_edge1x: [0mException caught: minor code.
+[0m[33mNov 20 06:20:51.449 WARNING: human_edge1y: [0mDead connection: d5f2895e-4313-4227-a904-c15b61b32e51
+[0m[33mNov 20 06:20:53.451 WARNING: human_edge1y: [0mDead connection: 6656ffb9-6fbf-4e2b-af87-0fb82fa9d85c
+[0m[33mNov 20 06:20:55.452 WARNING: human_edge1y: [0mException caught: minor code.
+[0m[33mNov 20 06:20:57.471 WARNING: human_edge1y: [0mException caught: minor code.
+[0m[33mNov 20 06:20:59.476 WARNING: human_edge2x: [0mDead connection: 0ecb2a6a-0469-4b8b-b546-1bd246474577
+[0m[33mNov 20 06:21:01.478 WARNING: human_edge2x: [0mDead connection: 0f7eb4a1-a482-4047-bb39-c5fcb197219b
+[0m[33mNov 20 06:21:03.482 WARNING: human_edge2x: [0mException caught: minor code.
+[0m[33mNov 20 06:21:05.500 WARNING: human_edge2x: [0mException caught: minor code.
+[0m[33mNov 20 06:21:07.514 WARNING: human_edge2y: [0mDead connection: 3219e5cb-4a2a-41bd-8e30-430a05e8f0a2
+[0m[33mNov 20 06:21:09.517 WARNING: human_edge2y: [0mDead connection: d199eb59-3a08-4d49-bb99-e78a16d23d4a
+[0m[33mNov 20 06:21:11.529 WARNING: human_edge2y: [0mException caught: minor code.
+[0m[33mNov 20 06:21:13.533 WARNING: human_edge2y: [0mException caught: minor code.
+[0m[33mNov 20 06:21:15.537 WARNING: people_wait: [0mDead connection: 1e3e0a34-ffd4-4ca3-bfbf-5cebaad21044
+[0m[33mNov 20 06:21:17.539 WARNING: people_wait: [0mException caught: minor code.
+[0m[33mNov 20 06:21:19.589 WARNING: human_dataX: [0mDead connection: 1395623e-df5c-4f3e-bdca-9132d5702377
+[0m[33mNov 20 06:21:21.591 WARNING: human_dataX: [0mException caught: minor code.

@@ -1,0 +1,67 @@
+[0m[34mOct 20 04:26:05.194 INFO: manager: [0m1.1.2
+[0m[34mOct 20 04:26:05.194 INFO: manager: [0mCopyright (C) 2003-2014
+[0m[34mOct 20 04:26:05.194 INFO: manager: [0m  Noriaki Ando
+[0m[34mOct 20 04:26:05.194 INFO: manager: [0m  Intelligent Systems Research Institute, AIST
+[0m[34mOct 20 04:26:05.194 INFO: manager: [0mManager starting.
+[0m[34mOct 20 04:26:05.195 INFO: manager: [0mStarting local logging.
+[0m[34mOct 20 04:26:05.221 INFO: NamingOnCorba: [0mEndpoint for the CORBA naming service (localhost) is 127.0.0.1.
+[0m[34mOct 20 04:26:05.221 INFO: NamingManager: [0mNameServer connection succeeded: corba/localhost
+[0m[34mOct 20 04:26:09.252 INFO: ManagerServant: [0mMaster manager not found
+[0m[33mOct 20 04:26:12.410 WARNING: SdoServiceAdmin: [0mNo available SDO service in the factory: 
+[0m[33mOct 20 04:26:12.412 WARNING: SdoServiceAdmin: [0mNo available SDO service in the factory: IDL:OpenRTM/ComponentObserver:1.0
+[0m[35mOct 20 04:35:36.995 ERROR: human_dataX: [0mconnectNext() in notify_connect() failed.
+[0m[35mOct 20 04:35:36.997 ERROR: InPortCorbaCdrConsumer: [0minport_ior not found
+[0m[35mOct 20 04:35:36.997 ERROR: InPortCorbaCdrConsumer: [0minport_ref not found
+[0m[35mOct 20 04:35:36.997 ERROR: human_dataX: [0minterface subscription failed.
+[0m[35mOct 20 04:35:36.997 ERROR: human_dataX: [0msubscribeInterfaces() in notify_connect() failed.
+[0m[35mOct 20 04:35:36.997 ERROR: human_dataX: [0mConnection failed. cleanup.
+[0m[35mOct 20 04:35:36.998 ERROR: human_dataX: [0mspecified connector not found: e93289bc-b158-43b7-869f-09af3c93f4ae
+[0m[35mOct 20 04:35:37.257 ERROR: human_dataY: [0mconnectNext() in notify_connect() failed.
+[0m[35mOct 20 04:35:37.258 ERROR: InPortCorbaCdrConsumer: [0minport_ior not found
+[0m[35mOct 20 04:35:37.259 ERROR: InPortCorbaCdrConsumer: [0minport_ref not found
+[0m[35mOct 20 04:35:37.259 ERROR: human_dataY: [0minterface subscription failed.
+[0m[35mOct 20 04:35:37.259 ERROR: human_dataY: [0msubscribeInterfaces() in notify_connect() failed.
+[0m[35mOct 20 04:35:37.259 ERROR: human_dataY: [0mConnection failed. cleanup.
+[0m[35mOct 20 04:35:37.259 ERROR: human_dataY: [0mspecified connector not found: 89fe105b-26df-4a6d-a4a2-b57ce4abaf9d
+[0m[35mOct 20 04:35:37.507 ERROR: human_edge1x: [0mconnectNext() in notify_connect() failed.
+[0m[35mOct 20 04:35:37.509 ERROR: InPortCorbaCdrConsumer: [0minport_ior not found
+[0m[35mOct 20 04:35:37.509 ERROR: InPortCorbaCdrConsumer: [0minport_ref not found
+[0m[35mOct 20 04:35:37.509 ERROR: human_edge1x: [0minterface subscription failed.
+[0m[35mOct 20 04:35:37.509 ERROR: human_edge1x: [0msubscribeInterfaces() in notify_connect() failed.
+[0m[35mOct 20 04:35:37.509 ERROR: human_edge1x: [0mConnection failed. cleanup.
+[0m[35mOct 20 04:35:37.510 ERROR: human_edge1x: [0mspecified connector not found: d247d7f8-3c55-4a45-84b9-757fba568486
+[0m[35mOct 20 04:35:37.764 ERROR: human_edge1y: [0mconnectNext() in notify_connect() failed.
+[0m[35mOct 20 04:35:37.766 ERROR: InPortCorbaCdrConsumer: [0minport_ior not found
+[0m[35mOct 20 04:35:37.766 ERROR: InPortCorbaCdrConsumer: [0minport_ref not found
+[0m[35mOct 20 04:35:37.766 ERROR: human_edge1y: [0minterface subscription failed.
+[0m[35mOct 20 04:35:37.766 ERROR: human_edge1y: [0msubscribeInterfaces() in notify_connect() failed.
+[0m[35mOct 20 04:35:37.766 ERROR: human_edge1y: [0mConnection failed. cleanup.
+[0m[35mOct 20 04:35:37.767 ERROR: human_edge1y: [0mspecified connector not found: 5ad084d6-adda-4340-a1c7-1f71f0f57702
+[0m[35mOct 20 04:35:38.022 ERROR: human_edge2x: [0mconnectNext() in notify_connect() failed.
+[0m[35mOct 20 04:35:38.024 ERROR: InPortCorbaCdrConsumer: [0minport_ior not found
+[0m[35mOct 20 04:35:38.024 ERROR: InPortCorbaCdrConsumer: [0minport_ref not found
+[0m[35mOct 20 04:35:38.024 ERROR: human_edge2x: [0minterface subscription failed.
+[0m[35mOct 20 04:35:38.024 ERROR: human_edge2x: [0msubscribeInterfaces() in notify_connect() failed.
+[0m[35mOct 20 04:35:38.024 ERROR: human_edge2x: [0mConnection failed. cleanup.
+[0m[35mOct 20 04:35:38.025 ERROR: human_edge2x: [0mspecified connector not found: d3b91558-254d-4a2d-a64b-0b7f2163fb96
+[0m[35mOct 20 04:35:38.295 ERROR: human_edge2y: [0mconnectNext() in notify_connect() failed.
+[0m[35mOct 20 04:35:38.297 ERROR: InPortCorbaCdrConsumer: [0minport_ior not found
+[0m[35mOct 20 04:35:38.297 ERROR: InPortCorbaCdrConsumer: [0minport_ref not found
+[0m[35mOct 20 04:35:38.297 ERROR: human_edge2y: [0minterface subscription failed.
+[0m[35mOct 20 04:35:38.297 ERROR: human_edge2y: [0msubscribeInterfaces() in notify_connect() failed.
+[0m[35mOct 20 04:35:38.297 ERROR: human_edge2y: [0mConnection failed. cleanup.
+[0m[35mOct 20 04:35:38.298 ERROR: human_edge2y: [0mspecified connector not found: a68544c7-b8ca-4590-af5c-b417eebe1eb0
+[0m[35mOct 20 04:35:38.540 ERROR: human_In: [0mconnectNext() in notify_connect() failed.
+[0m[35mOct 20 04:35:38.542 ERROR: InPortCorbaCdrConsumer: [0minport_ior not found
+[0m[35mOct 20 04:35:38.542 ERROR: InPortCorbaCdrConsumer: [0minport_ref not found
+[0m[35mOct 20 04:35:38.542 ERROR: human_In: [0minterface subscription failed.
+[0m[35mOct 20 04:35:38.542 ERROR: human_In: [0msubscribeInterfaces() in notify_connect() failed.
+[0m[35mOct 20 04:35:38.542 ERROR: human_In: [0mConnection failed. cleanup.
+[0m[35mOct 20 04:35:38.542 ERROR: human_In: [0mspecified connector not found: 6392a98f-d448-46af-bf1e-9cac4ce635de
+[0m[35mOct 20 04:35:39.053 ERROR: human_In: [0mconnectNext() in notify_connect() failed.
+[0m[35mOct 20 04:35:39.054 ERROR: InPortCorbaCdrConsumer: [0minport_ior not found
+[0m[35mOct 20 04:35:39.054 ERROR: InPortCorbaCdrConsumer: [0minport_ref not found
+[0m[35mOct 20 04:35:39.054 ERROR: human_In: [0minterface subscription failed.
+[0m[35mOct 20 04:35:39.055 ERROR: human_In: [0msubscribeInterfaces() in notify_connect() failed.
+[0m[35mOct 20 04:35:39.055 ERROR: human_In: [0mConnection failed. cleanup.
+[0m[35mOct 20 04:35:39.055 ERROR: human_In: [0mspecified connector not found: 68c8773e-e358-42ad-9ea5-c5474fe6c307
