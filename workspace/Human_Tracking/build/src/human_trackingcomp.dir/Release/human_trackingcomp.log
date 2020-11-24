@@ -1,0 +1,15 @@
+﻿2020/07/10 11:58:20 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\workspace\Human_Tracking\build\src\human_trackingcomp.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "human_trackingcomp.dir\Release\human_trackingcomp.unsuccessfulbuild" のタッチ タスクを実行しています。
+       CustomBuild:
+         すべての出力が最新のものです。
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\workspace\Human_Tracking\include /IC:\workspace\Human_Tracking\include\Human_Tracking /IC:\workspace\Human_Tracking\build /IC:\workspace\Human_Tracking\build\idl /I"C:\Program Files (x86)\OpenRTM-aist\1.1.2" /I"C:\Program Files (x86)\OpenRTM-aist\1.1.2\rtm\idl" /I"C:\Program Files (x86)\OpenRTM-aist\1.1.2\rtm\ext" /I"C:\Program Files (x86)\OpenRTM-aist\1.1.2\omniORB\4.2.1_vc10\include" /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D __WIN32__ /D __x86__ /D __NT__ /D __OSVERSION__=4 /D _CRT_SECURE_NO_DEPRECATE /D INCLUDE_stub_in_nt_dll /D RTC_CORBA_CXXMAPPING11 /D _WIN32_WINNT=0x0500 /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"human_trackingcomp.dir\Release\\" /Fd"human_trackingcomp.dir\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\Human_TrackingComp.cpp
+         Human_TrackingComp.cpp
+     1>c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+     1>プロジェクト "C:\workspace\Human_Tracking\build\src\human_trackingcomp.vcxproj" (build ターゲット) のビルドが終了しました -- 失敗。
+
+ビルドに失敗しました。
+
+経過時間 00:00:00.25
