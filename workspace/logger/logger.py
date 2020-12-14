@@ -222,7 +222,7 @@ class logger(OpenRTM_aist.DataFlowComponentBase):
                         log_list.append(self._human_edge2X[i])
                         log_list.append(self._human_edge2Y[i])
 
-                    self._file_name = '..//gaussian_process_multi\data\input\input_human' + \
+                    self._file_name = '..\gaussian_process_multi\data\input\input_human' + \
                         str(self._people_num) + '_' + \
                         self._time.strftime('%Y%m%d_%H%M%S') + '.csv'
                     # self._file_name = 'C:\workspace\gaussian_process_multi\data\input\input_human' + str(self._people_num) + '_'+str(self._time)+'.csv'
