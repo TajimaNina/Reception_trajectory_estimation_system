@@ -398,7 +398,7 @@ class gaussian_process_multi(OpenRTM_aist.DataFlowComponentBase):
                                 self._log_list.append(x[j][i])
                                 self._log_list.append(y[j][i])
                             self._logfile = self._time.strftime(
-                                'C:\workspace\gaussian_process_multi\data\log_human' + str(self._people_num) + '_%Y%m%d_%H%M%S.csv')
+                                '\data\log_human' + str(self._people_num) + '_%Y%m%d_%H%M%S.csv')
 
                             with open(self._logfile, 'a') as f:
                                 writer = csv.writer(f, lineterminator='\n')

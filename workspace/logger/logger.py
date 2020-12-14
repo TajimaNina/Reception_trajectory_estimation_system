@@ -100,10 +100,10 @@ class logger(OpenRTM_aist.DataFlowComponentBase):
 				"""
         self._d_human_inIn = OpenRTM_aist.InPort(
             "human_in", self._d_human_in)
-        #self._d_human_out = RTC.TimedLong(RTC.Time(0, 0), 0)
+        # self._d_human_out = RTC.TimedLong(RTC.Time(0, 0), 0)
         """
 		"""
-        #self._d_human_outIn = OpenRTM_aist.InPort("human_out", self._d_human_out)
+        # self._d_human_outIn = OpenRTM_aist.InPort("human_out", self._d_human_out)
         self._d_filename = RTC.TimedString(RTC.Time(0, 0), "")
         """
 				"""
@@ -128,7 +128,7 @@ class logger(OpenRTM_aist.DataFlowComponentBase):
         self.addInPort("human_edge2Y", self._d_human_edge2YIn)
         self.addInPort("human_in", self._d_human_inIn)
         self.addOutPort("filename", self._d_filenameOut)
-        #self.addInPort("human_out", self._d_human_outIn)
+        # self.addInPort("human_out", self._d_human_outIn)
 
         # Set OutPort buffers
 
@@ -147,7 +147,7 @@ class logger(OpenRTM_aist.DataFlowComponentBase):
         self._k = []
         self._people_num = 0
         self._pre_people_num = 0
-        self._time = 0
+        self._time = datetime.datetime.now()
 
         return RTC.RTC_OK
 
@@ -190,9 +190,9 @@ class logger(OpenRTM_aist.DataFlowComponentBase):
                     self._d_human_in = self._d_human_inIn.read()
                     self._human_in = self._d_human_in.data
                     print("human_in:", self._human_in)
-                    #self._d_human_out = self._d_human_outIn.read()
-                    #self._human_out = self._d_human_out.data
-                    #print("human_out:", self._human_out)
+                    # self._d_human_out = self._d_human_outIn.read()
+                    # self._human_out = self._d_human_out.data
+                    # print("human_out:", self._human_out)
 
                     self._people_num = int(self._human_in)
                     # if self._people_num != self._pre_people_num:
@@ -222,14 +222,15 @@ class logger(OpenRTM_aist.DataFlowComponentBase):
                         log_list.append(self._human_edge2X[i])
                         log_list.append(self._human_edge2Y[i])
 
-                    self._file_name = self._time.strftime(
-                        'C:\workspace\gaussian_process_multi\data\input\input_human' + str(self._people_num) + '_%Y%m%d_%H%M%S.csv')
-                    #self._file_name = 'C:\workspace\gaussian_process_multi\data\input\input_human' + str(self._people_num) + '_'+str(self._time)+'.csv'
+                    self._file_name = '..//gaussian_process_multi\data\input\input_human' + \
+                        str(self._people_num) + '_' + \
+                        self._time.strftime('%Y%m%d_%H%M%S') + '.csv'
+                    # self._file_name = 'C:\workspace\gaussian_process_multi\data\input\input_human' + str(self._people_num) + '_'+str(self._time)+'.csv'
                     with open(self._file_name, 'a') as f:
                         writer = csv.writer(f, lineterminator='\n')
                         writer.writerow(log_list)
                     self._d_filename.data = self._file_name
-                    #self._pre_people_num = self._people_num
+                    # self._pre_people_num = self._people_num
                     for i in range(self._people_num+1):
                         if self._people_num == int(i):
                             self._k[i] += 1
