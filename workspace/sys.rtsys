@@ -1,0 +1,391 @@
+<?xml version="1.0" ?>
+<rts:RtsProfile rts:abstract="RT System created by rtcryo." rts:creationDate="2020-12-14T13:26:36" rts:id="RTSystem:Me:RTSystem:0" rts:updateDate="2020-12-14T13:26:36" rts:version="0.2" xmlns:rts="http://www.openrtp.org/namespaces/rts" xmlns:rtsExt="http://www.openrtp.org/namespaces/rts_ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <rts:Components rts:activeConfigurationSet="default" rts:compositeType="None" rts:id="RTC:tajimanina:Category:logger:1.0.0" rts:instanceName="logger0" rts:isRequired="true" rts:pathUri="localhost/DESKTOP-I7QNMGG.host_cxt/logger0.rtc" rtsExt:visible="true" xsi:type="rtsExt:component_ext">
+        <rts:DataPorts rts:name="flag" rtsExt:visible="true" xsi:type="rtsExt:dataport_ext"/>
+        <rts:DataPorts rts:name="human_centerX" rtsExt:visible="true" xsi:type="rtsExt:dataport_ext"/>
+        <rts:DataPorts rts:name="human_centerY" rtsExt:visible="true" xsi:type="rtsExt:dataport_ext"/>
+        <rts:DataPorts rts:name="human_edge1X" rtsExt:visible="true" xsi:type="rtsExt:dataport_ext"/>
+        <rts:DataPorts rts:name="human_edge1Y" rtsExt:visible="true" xsi:type="rtsExt:dataport_ext"/>
+        <rts:DataPorts rts:name="human_edge2X" rtsExt:visible="true" xsi:type="rtsExt:dataport_ext"/>
+        <rts:DataPorts rts:name="human_edge2Y" rtsExt:visible="true" xsi:type="rtsExt:dataport_ext"/>
+        <rts:DataPorts rts:name="human_in" rtsExt:visible="true" xsi:type="rtsExt:dataport_ext"/>
+        <rts:DataPorts rts:name="filename" rtsExt:visible="true" xsi:type="rtsExt:dataport_ext"/>
+        <rts:ConfigurationSets rts:id="default"/>
+        <rts:ExecutionContexts rts:id="0" rts:kind="PERIODIC" rts:rate="1000.0" xsi:type="rtsExt:execution_context_ext"/>
+        <rtsExt:Location rtsExt:direction="down" rtsExt:height="0" rtsExt:width="0" rtsExt:x="0" rtsExt:y="0"/>
+        <rtsExt:Properties rtsExt:name="IOR" rtsExt:value="IOR:010000003500000049444c3a6f70656e72746d2e616973742e676f2e6a702f4f70656e52544d2f44617461466c6f77436f6d706f6e656e743a312e3000000000010000000000000064000000010102000d00000031302e302e3131362e3232300000d2fe0e000000fef4e7d65f00003484000000000100000200000000000000080000000100000000545441010000001c00000001000000010001000100000001000105090101000100000009010100"/>
+    </rts:Components>
+    <rts:Components rts:activeConfigurationSet="default" rts:compositeType="None" rts:id="RTC:tajimanina:Category:ReceptionCommander:1.0.0" rts:instanceName="ReceptionCommander0" rts:isRequired="true" rts:pathUri="localhost/DESKTOP-I7QNMGG.host_cxt/ReceptionCommander0.rtc" rtsExt:visible="true" xsi:type="rtsExt:component_ext">
+        <rts:DataPorts rts:name="human_x" rtsExt:visible="true" xsi:type="rtsExt:dataport_ext"/>
+        <rts:DataPorts rts:name="human_y" rtsExt:visible="true" xsi:type="rtsExt:dataport_ext"/>
+        <rts:DataPorts rts:name="human_edge1X" rtsExt:visible="true" xsi:type="rtsExt:dataport_ext"/>
+        <rts:DataPorts rts:name="human_edge1Y" rtsExt:visible="true" xsi:type="rtsExt:dataport_ext"/>
+        <rts:DataPorts rts:name="human_edge2X" rtsExt:visible="true" xsi:type="rtsExt:dataport_ext"/>
+        <rts:DataPorts rts:name="human_edge2Y" rtsExt:visible="true" xsi:type="rtsExt:dataport_ext"/>
+        <rts:DataPorts rts:name="wait_people" rtsExt:visible="true" xsi:type="rtsExt:dataport_ext"/>
+        <rts:DataPorts rts:name="logger_cmd" rtsExt:visible="true" xsi:type="rtsExt:dataport_ext"/>
+        <rts:DataPorts rts:name="gauss_cmd" rtsExt:visible="true" xsi:type="rtsExt:dataport_ext"/>
+        <rts:DataPorts rts:name="human_num" rtsExt:visible="true" xsi:type="rtsExt:dataport_ext"/>
+        <rts:DataPorts rts:name="poco_cmd" rtsExt:visible="true" xsi:type="rtsExt:dataport_ext"/>
+        <rts:DataPorts rts:name="human_detection" rtsExt:visible="true" xsi:type="rtsExt:dataport_ext"/>
+        <rts:ConfigurationSets rts:id="default"/>
+        <rts:ExecutionContexts rts:id="0" rts:kind="PERIODIC" rts:rate="1000.0" xsi:type="rtsExt:execution_context_ext"/>
+        <rtsExt:Location rtsExt:direction="down" rtsExt:height="0" rtsExt:width="0" rtsExt:x="0" rtsExt:y="0"/>
+        <rtsExt:Properties rtsExt:name="IOR" rtsExt:value="IOR:010000003500000049444c3a6f70656e72746d2e616973742e676f2e6a702f4f70656e52544d2f44617461466c6f77436f6d706f6e656e743a312e3000000000010000000000000064000000010102000d00000031302e302e3131362e3232300000cdfe0e000000fef3e7d65f00001010000000000100000200000000000000080000000100000000545441010000001c00000001000000010001000100000001000105090101000100000009010100"/>
+    </rts:Components>
+    <rts:Components rts:activeConfigurationSet="default" rts:compositeType="None" rts:id="RTC:Nomiyama:Category:Human_Tracking:1.0.0" rts:instanceName="Human_Tracking0" rts:isRequired="true" rts:pathUri="localhost/DESKTOP-I7QNMGG.host_cxt/Human_Tracking0.rtc" rtsExt:visible="true" xsi:type="rtsExt:component_ext">
+        <rts:DataPorts rts:name="range_data" rtsExt:visible="true" xsi:type="rtsExt:dataport_ext"/>
+        <rts:DataPorts rts:name="human_dataX" rtsExt:visible="true" xsi:type="rtsExt:dataport_ext"/>
+        <rts:DataPorts rts:name="human_dataY" rtsExt:visible="true" xsi:type="rtsExt:dataport_ext"/>
+        <rts:DataPorts rts:name="human_edge1x" rtsExt:visible="true" xsi:type="rtsExt:dataport_ext"/>
+        <rts:DataPorts rts:name="human_edge1y" rtsExt:visible="true" xsi:type="rtsExt:dataport_ext"/>
+        <rts:DataPorts rts:name="human_edge2x" rtsExt:visible="true" xsi:type="rtsExt:dataport_ext"/>
+        <rts:DataPorts rts:name="human_edge2y" rtsExt:visible="true" xsi:type="rtsExt:dataport_ext"/>
+        <rts:DataPorts rts:name="count_data" rtsExt:visible="true" xsi:type="rtsExt:dataport_ext"/>
+        <rts:DataPorts rts:name="human_In" rtsExt:visible="true" xsi:type="rtsExt:dataport_ext"/>
+        <rts:DataPorts rts:name="human_Out" rtsExt:visible="true" xsi:type="rtsExt:dataport_ext"/>
+        <rts:DataPorts rts:name="Congestion degree" rtsExt:visible="true" xsi:type="rtsExt:dataport_ext"/>
+        <rts:DataPorts rts:name="people_wait" rtsExt:visible="true" xsi:type="rtsExt:dataport_ext"/>
+        <rts:ConfigurationSets rts:id="default">
+            <rts:ConfigurationData rts:data="2500" rts:name="Count_area_distance"/>
+            <rts:ConfigurationData rts:data="200" rts:name="Human_width"/>
+            <rts:ConfigurationData rts:data="4000" rts:name="Environmental_maxdata"/>
+            <rts:ConfigurationData rts:data="10" rts:name="Human_NUM"/>
+            <rts:ConfigurationData rts:data="384" rts:name="LRFdata_mid"/>
+            <rts:ConfigurationData rts:data="725" rts:name="LRFdata_max"/>
+            <rts:ConfigurationData rts:data="IN,OUT" rts:name="Count_mode"/>
+            <rts:ConfigurationData rts:data="44" rts:name="LRFdata_min"/>
+            <rts:ConfigurationData rts:data="2800" rts:name="Human_setdistance"/>
+            <rts:ConfigurationData rts:data="360" rts:name="LRFdata_theta"/>
+            <rts:ConfigurationData rts:data="ON" rts:name="DataRecord"/>
+            <rts:ConfigurationData rts:data="2500" rts:name="Human_TrackingData"/>
+            <rts:ConfigurationData rts:data="1024" rts:name="LRF_Total_steps"/>
+        </rts:ConfigurationSets>
+        <rts:ConfigurationSets rts:id="__widget__">
+            <rts:ConfigurationData rts:data="text" rts:name="Count_area_distance"/>
+            <rts:ConfigurationData rts:data="text" rts:name="Human_width"/>
+            <rts:ConfigurationData rts:data="text" rts:name="Environmental_maxdata"/>
+            <rts:ConfigurationData rts:data="text" rts:name="Human_NUM"/>
+            <rts:ConfigurationData rts:data="text" rts:name="LRFdata_mid"/>
+            <rts:ConfigurationData rts:data="text" rts:name="LRF_Total_steps"/>
+            <rts:ConfigurationData rts:data="text" rts:name="Count_mode"/>
+            <rts:ConfigurationData rts:data="text" rts:name="LRFdata_min"/>
+            <rts:ConfigurationData rts:data="text" rts:name="Human_setdistance"/>
+            <rts:ConfigurationData rts:data="text" rts:name="LRFdata_theta"/>
+            <rts:ConfigurationData rts:data="text" rts:name="DataRecord"/>
+            <rts:ConfigurationData rts:data="text" rts:name="Human_TrackingData"/>
+            <rts:ConfigurationData rts:data="text" rts:name="LRFdata_max"/>
+        </rts:ConfigurationSets>
+        <rts:ExecutionContexts rts:id="0" rts:kind="PERIODIC" rts:rate="1000.0" xsi:type="rtsExt:execution_context_ext"/>
+        <rtsExt:Location rtsExt:direction="down" rtsExt:height="0" rtsExt:width="0" rtsExt:x="0" rtsExt:y="0"/>
+        <rtsExt:Properties rtsExt:name="IOR" rtsExt:value="IOR:010000003500000049444c3a6f70656e72746d2e616973742e676f2e6a702f4f70656e52544d2f44617461466c6f77436f6d706f6e656e743a312e3000000000010000000000000064000000010102000d00000031302e302e3131362e3232300000c9fe0e000000fef2e7d65f0000076c000000000000000200000000000000080000000100000000545441010000001c00000001000000010001000100000001000105090101000100000009010100"/>
+    </rts:Components>
+    <rts:Components rts:activeConfigurationSet="default" rts:compositeType="None" rts:id="RTC:TajimaNina:Category:gaussian_process_multi:1.0.0" rts:instanceName="gaussian_process_multi0" rts:isRequired="true" rts:pathUri="localhost/DESKTOP-I7QNMGG.host_cxt/gaussian_process_multi0.rtc" rtsExt:visible="true" xsi:type="rtsExt:component_ext">
+        <rts:DataPorts rts:name="flag" rtsExt:visible="true" xsi:type="rtsExt:dataport_ext"/>
+        <rts:DataPorts rts:name="filename" rtsExt:visible="true" xsi:type="rtsExt:dataport_ext"/>
+        <rts:DataPorts rts:name="human_in" rtsExt:visible="true" xsi:type="rtsExt:dataport_ext"/>
+        <rts:DataPorts rts:name="outport" rtsExt:visible="true" xsi:type="rtsExt:dataport_ext"/>
+        <rts:ConfigurationSets rts:id="default">
+            <rts:ConfigurationData rts:data="0" rts:name="parameter"/>
+        </rts:ConfigurationSets>
+        <rts:ConfigurationSets rts:id="__widget__">
+            <rts:ConfigurationData rts:data="text" rts:name="parameter"/>
+        </rts:ConfigurationSets>
+        <rts:ConfigurationSets rts:id="__type__">
+            <rts:ConfigurationData rts:data="long" rts:name="parameter"/>
+        </rts:ConfigurationSets>
+        <rts:ExecutionContexts rts:id="0" rts:kind="PERIODIC" rts:rate="1000.0" xsi:type="rtsExt:execution_context_ext"/>
+        <rtsExt:Location rtsExt:direction="down" rtsExt:height="0" rtsExt:width="0" rtsExt:x="0" rtsExt:y="0"/>
+        <rtsExt:Properties rtsExt:name="IOR" rtsExt:value="IOR:010000003500000049444c3a6f70656e72746d2e616973742e676f2e6a702f4f70656e52544d2f44617461466c6f77436f6d706f6e656e743a312e3000000000010000000000000064000000010102000d00000031302e302e3131362e3232300000d9fe0e000000fef6e7d65f00003c3c000000000100000200000000000000080000000100000000545441010000001c00000001000000010001000100000001000105090101000100000009010100"/>
+    </rts:Components>
+    <rts:Components rts:activeConfigurationSet="default" rts:compositeType="None" rts:id="RTC:VenderName:Category:URG:1.0.0" rts:instanceName="URG0" rts:isRequired="true" rts:pathUri="localhost/DESKTOP-I7QNMGG.host_cxt/URG0.rtc" rtsExt:visible="true" xsi:type="rtsExt:component_ext">
+        <rts:DataPorts rts:name="RangeData" rtsExt:visible="true" xsi:type="rtsExt:dataport_ext"/>
+        <rts:ConfigurationSets rts:id="default">
+            <rts:ConfigurationData rts:data="726" rts:name="end_step"/>
+            <rts:ConfigurationData rts:data="44" rts:name="start_step"/>
+            <rts:ConfigurationData rts:data="9" rts:name="COM"/>
+            <rts:ConfigurationData rts:data="1" rts:name="interval_step"/>
+            <rts:ConfigurationData rts:data="4000" rts:name="max_range"/>
+        </rts:ConfigurationSets>
+        <rts:ConfigurationSets rts:id="__widget__">
+            <rts:ConfigurationData rts:data="text" rts:name="end_step"/>
+            <rts:ConfigurationData rts:data="text" rts:name="start_step"/>
+            <rts:ConfigurationData rts:data="text" rts:name="COM"/>
+            <rts:ConfigurationData rts:data="text" rts:name="interval_step"/>
+            <rts:ConfigurationData rts:data="text" rts:name="max_range"/>
+        </rts:ConfigurationSets>
+        <rts:ExecutionContexts rts:id="0" rts:kind="PERIODIC" rts:rate="10.0" xsi:type="rtsExt:execution_context_ext"/>
+        <rtsExt:Location rtsExt:direction="down" rtsExt:height="0" rtsExt:width="0" rtsExt:x="0" rtsExt:y="0"/>
+        <rtsExt:Properties rtsExt:name="IOR" rtsExt:value="IOR:010000003500000049444c3a6f70656e72746d2e616973742e676f2e6a702f4f70656e52544d2f44617461466c6f77436f6d706f6e656e743a312e3000000000010000000000000064000000010102000d00000031302e302e3131362e3232300000c4fe0e000000fef1e7d65f00003ca8000000000000000200000000000000080000000100000000545441010000001c00000001000000010001000100000001000105090101000100000009010100"/>
+    </rts:Components>
+    <rts:DataPortConnectors rts:connectorId="e4154b8f-3dc3-11eb-9126-40f02f22b8cf" rts:dataType="IDL:RTC/TimedString:1.0" rts:dataflowType="push" rts:interfaceType="corba_cdr" rts:name="filenamefilename" rts:subscriptionType="new" xsi:type="rtsExt:dataport_connector_ext">
+        <rts:sourceDataPort rts:componentId="RTC:tajimanina:Category:logger:1.0.0" rts:instanceName="logger0" rts:portName="logger0.filename" xsi:type="rtsExt:target_port_ext">
+            <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost/DESKTOP-I7QNMGG.host_cxt/logger0.rtc"/>
+        </rts:sourceDataPort>
+        <rts:targetDataPort rts:componentId="RTC:TajimaNina:Category:gaussian_process_multi:1.0.0" rts:instanceName="gaussian_process_multi0" rts:portName="gaussian_process_multi0.filename" xsi:type="rtsExt:target_port_ext">
+            <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost/DESKTOP-I7QNMGG.host_cxt/gaussian_process_multi0.rtc"/>
+        </rts:targetDataPort>
+        <rtsExt:Properties rtsExt:name="dataport.subscription_type" rtsExt:value="new"/>
+        <rtsExt:Properties rtsExt:name="dataport.outport"/>
+        <rtsExt:Properties rtsExt:name="dataport.inport"/>
+        <rtsExt:Properties rtsExt:name="dataport.interface_type" rtsExt:value="corba_cdr"/>
+        <rtsExt:Properties rtsExt:name="dataport.dataflow_type" rtsExt:value="push"/>
+        <rtsExt:Properties rtsExt:name="dataport.data_type" rtsExt:value="IDL:RTC/TimedString:1.0"/>
+        <rtsExt:Properties rtsExt:name="dataport.serializer.cdr.endian" rtsExt:value="little,big"/>
+    </rts:DataPortConnectors>
+    <rts:DataPortConnectors rts:connectorId="e037ea4f-3dc3-11eb-bd6a-40f02f22b8cf" rts:dataType="IDL:RTC/TimedString:1.0" rts:dataflowType="push" rts:interfaceType="corba_cdr" rts:name="logger_cmdflag" rts:subscriptionType="new" xsi:type="rtsExt:dataport_connector_ext">
+        <rts:sourceDataPort rts:componentId="RTC:tajimanina:Category:ReceptionCommander:1.0.0" rts:instanceName="ReceptionCommander0" rts:portName="ReceptionCommander0.logger_cmd" xsi:type="rtsExt:target_port_ext">
+            <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost/DESKTOP-I7QNMGG.host_cxt/ReceptionCommander0.rtc"/>
+        </rts:sourceDataPort>
+        <rts:targetDataPort rts:componentId="RTC:tajimanina:Category:logger:1.0.0" rts:instanceName="logger0" rts:portName="logger0.flag" xsi:type="rtsExt:target_port_ext">
+            <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost/DESKTOP-I7QNMGG.host_cxt/logger0.rtc"/>
+        </rts:targetDataPort>
+        <rtsExt:Properties rtsExt:name="dataport.subscription_type" rtsExt:value="new"/>
+        <rtsExt:Properties rtsExt:name="dataport.outport"/>
+        <rtsExt:Properties rtsExt:name="dataport.inport"/>
+        <rtsExt:Properties rtsExt:name="dataport.interface_type" rtsExt:value="corba_cdr"/>
+        <rtsExt:Properties rtsExt:name="dataport.dataflow_type" rtsExt:value="push"/>
+        <rtsExt:Properties rtsExt:name="dataport.data_type" rtsExt:value="IDL:RTC/TimedString:1.0"/>
+        <rtsExt:Properties rtsExt:name="dataport.serializer.cdr.endian" rtsExt:value="little,big"/>
+    </rts:DataPortConnectors>
+    <rts:DataPortConnectors rts:connectorId="e3c7eede-3dc3-11eb-9e7f-40f02f22b8cf" rts:dataType="IDL:RTC/TimedString:1.0" rts:dataflowType="push" rts:interfaceType="corba_cdr" rts:name="gauss_cmdflag" rts:subscriptionType="new" xsi:type="rtsExt:dataport_connector_ext">
+        <rts:sourceDataPort rts:componentId="RTC:tajimanina:Category:ReceptionCommander:1.0.0" rts:instanceName="ReceptionCommander0" rts:portName="ReceptionCommander0.gauss_cmd" xsi:type="rtsExt:target_port_ext">
+            <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost/DESKTOP-I7QNMGG.host_cxt/ReceptionCommander0.rtc"/>
+        </rts:sourceDataPort>
+        <rts:targetDataPort rts:componentId="RTC:TajimaNina:Category:gaussian_process_multi:1.0.0" rts:instanceName="gaussian_process_multi0" rts:portName="gaussian_process_multi0.flag" xsi:type="rtsExt:target_port_ext">
+            <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost/DESKTOP-I7QNMGG.host_cxt/gaussian_process_multi0.rtc"/>
+        </rts:targetDataPort>
+        <rtsExt:Properties rtsExt:name="dataport.subscription_type" rtsExt:value="new"/>
+        <rtsExt:Properties rtsExt:name="dataport.outport"/>
+        <rtsExt:Properties rtsExt:name="dataport.inport"/>
+        <rtsExt:Properties rtsExt:name="dataport.interface_type" rtsExt:value="corba_cdr"/>
+        <rtsExt:Properties rtsExt:name="dataport.dataflow_type" rtsExt:value="push"/>
+        <rtsExt:Properties rtsExt:name="dataport.data_type" rtsExt:value="IDL:RTC/TimedString:1.0"/>
+        <rtsExt:Properties rtsExt:name="dataport.serializer.cdr.endian" rtsExt:value="little,big"/>
+    </rts:DataPortConnectors>
+    <rts:DataPortConnectors rts:connectorId="e15b82c0-3dc3-11eb-95eb-40f02f22b8cf" rts:dataType="IDL:RTC/TimedLong:1.0" rts:dataflowType="push" rts:interfaceType="corba_cdr" rts:name="human_numhuman_in" rts:subscriptionType="new" xsi:type="rtsExt:dataport_connector_ext">
+        <rts:sourceDataPort rts:componentId="RTC:tajimanina:Category:ReceptionCommander:1.0.0" rts:instanceName="ReceptionCommander0" rts:portName="ReceptionCommander0.human_num" xsi:type="rtsExt:target_port_ext">
+            <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost/DESKTOP-I7QNMGG.host_cxt/ReceptionCommander0.rtc"/>
+        </rts:sourceDataPort>
+        <rts:targetDataPort rts:componentId="RTC:tajimanina:Category:logger:1.0.0" rts:instanceName="logger0" rts:portName="logger0.human_in" xsi:type="rtsExt:target_port_ext">
+            <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost/DESKTOP-I7QNMGG.host_cxt/logger0.rtc"/>
+        </rts:targetDataPort>
+        <rtsExt:Properties rtsExt:name="dataport.subscription_type" rtsExt:value="new"/>
+        <rtsExt:Properties rtsExt:name="dataport.outport"/>
+        <rtsExt:Properties rtsExt:name="dataport.inport"/>
+        <rtsExt:Properties rtsExt:name="dataport.interface_type" rtsExt:value="corba_cdr"/>
+        <rtsExt:Properties rtsExt:name="dataport.dataflow_type" rtsExt:value="push"/>
+        <rtsExt:Properties rtsExt:name="dataport.data_type" rtsExt:value="IDL:RTC/TimedLong:1.0"/>
+        <rtsExt:Properties rtsExt:name="dataport.serializer.cdr.endian" rtsExt:value="little,big"/>
+    </rts:DataPortConnectors>
+    <rts:DataPortConnectors rts:connectorId="e3eded70-3dc3-11eb-9b22-40f02f22b8cf" rts:dataType="IDL:RTC/TimedLong:1.0" rts:dataflowType="push" rts:interfaceType="corba_cdr" rts:name="human_numhuman_in" rts:subscriptionType="new" xsi:type="rtsExt:dataport_connector_ext">
+        <rts:sourceDataPort rts:componentId="RTC:tajimanina:Category:ReceptionCommander:1.0.0" rts:instanceName="ReceptionCommander0" rts:portName="ReceptionCommander0.human_num" xsi:type="rtsExt:target_port_ext">
+            <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost/DESKTOP-I7QNMGG.host_cxt/ReceptionCommander0.rtc"/>
+        </rts:sourceDataPort>
+        <rts:targetDataPort rts:componentId="RTC:TajimaNina:Category:gaussian_process_multi:1.0.0" rts:instanceName="gaussian_process_multi0" rts:portName="gaussian_process_multi0.human_in" xsi:type="rtsExt:target_port_ext">
+            <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost/DESKTOP-I7QNMGG.host_cxt/gaussian_process_multi0.rtc"/>
+        </rts:targetDataPort>
+        <rtsExt:Properties rtsExt:name="dataport.subscription_type" rtsExt:value="new"/>
+        <rtsExt:Properties rtsExt:name="dataport.outport"/>
+        <rtsExt:Properties rtsExt:name="dataport.inport"/>
+        <rtsExt:Properties rtsExt:name="dataport.interface_type" rtsExt:value="corba_cdr"/>
+        <rtsExt:Properties rtsExt:name="dataport.dataflow_type" rtsExt:value="push"/>
+        <rtsExt:Properties rtsExt:name="dataport.data_type" rtsExt:value="IDL:RTC/TimedLong:1.0"/>
+        <rtsExt:Properties rtsExt:name="dataport.serializer.cdr.endian" rtsExt:value="little,big"/>
+    </rts:DataPortConnectors>
+    <rts:DataPortConnectors rts:connectorId="e3a2e25b-afc3-4837-be26-ab51e815884c" rts:dataType="IDL:RTC/TimedLongSeq:1.0" rts:dataflowType="push" rts:interfaceType="corba_cdr" rts:name="human_dataXhuman_centerX" rts:subscriptionType="new" xsi:type="rtsExt:dataport_connector_ext">
+        <rts:sourceDataPort rts:componentId="RTC:Nomiyama:Category:Human_Tracking:1.0.0" rts:instanceName="Human_Tracking0" rts:portName="Human_Tracking0.human_dataX" xsi:type="rtsExt:target_port_ext">
+            <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost/DESKTOP-I7QNMGG.host_cxt/Human_Tracking0.rtc"/>
+        </rts:sourceDataPort>
+        <rts:targetDataPort rts:componentId="RTC:tajimanina:Category:logger:1.0.0" rts:instanceName="logger0" rts:portName="logger0.human_centerX" xsi:type="rtsExt:target_port_ext">
+            <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost/DESKTOP-I7QNMGG.host_cxt/logger0.rtc"/>
+        </rts:targetDataPort>
+        <rtsExt:Properties rtsExt:name="dataport.subscription_type" rtsExt:value="new"/>
+        <rtsExt:Properties rtsExt:name="dataport.inport"/>
+        <rtsExt:Properties rtsExt:name="dataport.interface_type" rtsExt:value="corba_cdr"/>
+        <rtsExt:Properties rtsExt:name="dataport.data_type" rtsExt:value="IDL:RTC/TimedLongSeq:1.0"/>
+        <rtsExt:Properties rtsExt:name="dataport.dataflow_type" rtsExt:value="push"/>
+        <rtsExt:Properties rtsExt:name="dataport.serializer.cdr.endian" rtsExt:value="little,big"/>
+    </rts:DataPortConnectors>
+    <rts:DataPortConnectors rts:connectorId="cbd6ce8d-b4ab-4cdc-ab68-692eef7f3f29" rts:dataType="IDL:RTC/TimedLongSeq:1.0" rts:dataflowType="push" rts:interfaceType="corba_cdr" rts:name="human_dataXhuman_x" rts:subscriptionType="new" xsi:type="rtsExt:dataport_connector_ext">
+        <rts:sourceDataPort rts:componentId="RTC:Nomiyama:Category:Human_Tracking:1.0.0" rts:instanceName="Human_Tracking0" rts:portName="Human_Tracking0.human_dataX" xsi:type="rtsExt:target_port_ext">
+            <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost/DESKTOP-I7QNMGG.host_cxt/Human_Tracking0.rtc"/>
+        </rts:sourceDataPort>
+        <rts:targetDataPort rts:componentId="RTC:tajimanina:Category:ReceptionCommander:1.0.0" rts:instanceName="ReceptionCommander0" rts:portName="ReceptionCommander0.human_x" xsi:type="rtsExt:target_port_ext">
+            <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost/DESKTOP-I7QNMGG.host_cxt/ReceptionCommander0.rtc"/>
+        </rts:targetDataPort>
+        <rtsExt:Properties rtsExt:name="dataport.subscription_type" rtsExt:value="new"/>
+        <rtsExt:Properties rtsExt:name="dataport.inport"/>
+        <rtsExt:Properties rtsExt:name="dataport.interface_type" rtsExt:value="corba_cdr"/>
+        <rtsExt:Properties rtsExt:name="dataport.data_type" rtsExt:value="IDL:RTC/TimedLongSeq:1.0"/>
+        <rtsExt:Properties rtsExt:name="dataport.dataflow_type" rtsExt:value="push"/>
+        <rtsExt:Properties rtsExt:name="dataport.serializer.cdr.endian" rtsExt:value="little,big"/>
+    </rts:DataPortConnectors>
+    <rts:DataPortConnectors rts:connectorId="912d94de-2b1f-45b5-a77b-943343ebc0cf" rts:dataType="IDL:RTC/TimedLongSeq:1.0" rts:dataflowType="push" rts:interfaceType="corba_cdr" rts:name="human_dataYhuman_centerY" rts:subscriptionType="new" xsi:type="rtsExt:dataport_connector_ext">
+        <rts:sourceDataPort rts:componentId="RTC:Nomiyama:Category:Human_Tracking:1.0.0" rts:instanceName="Human_Tracking0" rts:portName="Human_Tracking0.human_dataY" xsi:type="rtsExt:target_port_ext">
+            <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost/DESKTOP-I7QNMGG.host_cxt/Human_Tracking0.rtc"/>
+        </rts:sourceDataPort>
+        <rts:targetDataPort rts:componentId="RTC:tajimanina:Category:logger:1.0.0" rts:instanceName="logger0" rts:portName="logger0.human_centerY" xsi:type="rtsExt:target_port_ext">
+            <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost/DESKTOP-I7QNMGG.host_cxt/logger0.rtc"/>
+        </rts:targetDataPort>
+        <rtsExt:Properties rtsExt:name="dataport.subscription_type" rtsExt:value="new"/>
+        <rtsExt:Properties rtsExt:name="dataport.inport"/>
+        <rtsExt:Properties rtsExt:name="dataport.interface_type" rtsExt:value="corba_cdr"/>
+        <rtsExt:Properties rtsExt:name="dataport.data_type" rtsExt:value="IDL:RTC/TimedLongSeq:1.0"/>
+        <rtsExt:Properties rtsExt:name="dataport.dataflow_type" rtsExt:value="push"/>
+        <rtsExt:Properties rtsExt:name="dataport.serializer.cdr.endian" rtsExt:value="little,big"/>
+    </rts:DataPortConnectors>
+    <rts:DataPortConnectors rts:connectorId="5db4ddff-09be-4fc5-8deb-2a7e98822520" rts:dataType="IDL:RTC/TimedLongSeq:1.0" rts:dataflowType="push" rts:interfaceType="corba_cdr" rts:name="human_dataYhuman_y" rts:subscriptionType="new" xsi:type="rtsExt:dataport_connector_ext">
+        <rts:sourceDataPort rts:componentId="RTC:Nomiyama:Category:Human_Tracking:1.0.0" rts:instanceName="Human_Tracking0" rts:portName="Human_Tracking0.human_dataY" xsi:type="rtsExt:target_port_ext">
+            <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost/DESKTOP-I7QNMGG.host_cxt/Human_Tracking0.rtc"/>
+        </rts:sourceDataPort>
+        <rts:targetDataPort rts:componentId="RTC:tajimanina:Category:ReceptionCommander:1.0.0" rts:instanceName="ReceptionCommander0" rts:portName="ReceptionCommander0.human_y" xsi:type="rtsExt:target_port_ext">
+            <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost/DESKTOP-I7QNMGG.host_cxt/ReceptionCommander0.rtc"/>
+        </rts:targetDataPort>
+        <rtsExt:Properties rtsExt:name="dataport.subscription_type" rtsExt:value="new"/>
+        <rtsExt:Properties rtsExt:name="dataport.inport"/>
+        <rtsExt:Properties rtsExt:name="dataport.interface_type" rtsExt:value="corba_cdr"/>
+        <rtsExt:Properties rtsExt:name="dataport.data_type" rtsExt:value="IDL:RTC/TimedLongSeq:1.0"/>
+        <rtsExt:Properties rtsExt:name="dataport.dataflow_type" rtsExt:value="push"/>
+        <rtsExt:Properties rtsExt:name="dataport.serializer.cdr.endian" rtsExt:value="little,big"/>
+    </rts:DataPortConnectors>
+    <rts:DataPortConnectors rts:connectorId="8a28f5ad-c441-4367-b894-7e85d713dc99" rts:dataType="IDL:RTC/TimedLongSeq:1.0" rts:dataflowType="push" rts:interfaceType="corba_cdr" rts:name="human_edge1xhuman_edge1X" rts:subscriptionType="new" xsi:type="rtsExt:dataport_connector_ext">
+        <rts:sourceDataPort rts:componentId="RTC:Nomiyama:Category:Human_Tracking:1.0.0" rts:instanceName="Human_Tracking0" rts:portName="Human_Tracking0.human_edge1x" xsi:type="rtsExt:target_port_ext">
+            <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost/DESKTOP-I7QNMGG.host_cxt/Human_Tracking0.rtc"/>
+        </rts:sourceDataPort>
+        <rts:targetDataPort rts:componentId="RTC:tajimanina:Category:logger:1.0.0" rts:instanceName="logger0" rts:portName="logger0.human_edge1X" xsi:type="rtsExt:target_port_ext">
+            <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost/DESKTOP-I7QNMGG.host_cxt/logger0.rtc"/>
+        </rts:targetDataPort>
+        <rtsExt:Properties rtsExt:name="dataport.subscription_type" rtsExt:value="new"/>
+        <rtsExt:Properties rtsExt:name="dataport.inport"/>
+        <rtsExt:Properties rtsExt:name="dataport.interface_type" rtsExt:value="corba_cdr"/>
+        <rtsExt:Properties rtsExt:name="dataport.data_type" rtsExt:value="IDL:RTC/TimedLongSeq:1.0"/>
+        <rtsExt:Properties rtsExt:name="dataport.dataflow_type" rtsExt:value="push"/>
+        <rtsExt:Properties rtsExt:name="dataport.serializer.cdr.endian" rtsExt:value="little,big"/>
+    </rts:DataPortConnectors>
+    <rts:DataPortConnectors rts:connectorId="6b9b96af-96ea-489c-b1ba-b9ce4c3847b8" rts:dataType="IDL:RTC/TimedLongSeq:1.0" rts:dataflowType="push" rts:interfaceType="corba_cdr" rts:name="human_edge1xhuman_edge1X" rts:subscriptionType="new" xsi:type="rtsExt:dataport_connector_ext">
+        <rts:sourceDataPort rts:componentId="RTC:Nomiyama:Category:Human_Tracking:1.0.0" rts:instanceName="Human_Tracking0" rts:portName="Human_Tracking0.human_edge1x" xsi:type="rtsExt:target_port_ext">
+            <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost/DESKTOP-I7QNMGG.host_cxt/Human_Tracking0.rtc"/>
+        </rts:sourceDataPort>
+        <rts:targetDataPort rts:componentId="RTC:tajimanina:Category:ReceptionCommander:1.0.0" rts:instanceName="ReceptionCommander0" rts:portName="ReceptionCommander0.human_edge1X" xsi:type="rtsExt:target_port_ext">
+            <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost/DESKTOP-I7QNMGG.host_cxt/ReceptionCommander0.rtc"/>
+        </rts:targetDataPort>
+        <rtsExt:Properties rtsExt:name="dataport.subscription_type" rtsExt:value="new"/>
+        <rtsExt:Properties rtsExt:name="dataport.inport"/>
+        <rtsExt:Properties rtsExt:name="dataport.interface_type" rtsExt:value="corba_cdr"/>
+        <rtsExt:Properties rtsExt:name="dataport.data_type" rtsExt:value="IDL:RTC/TimedLongSeq:1.0"/>
+        <rtsExt:Properties rtsExt:name="dataport.dataflow_type" rtsExt:value="push"/>
+        <rtsExt:Properties rtsExt:name="dataport.serializer.cdr.endian" rtsExt:value="little,big"/>
+    </rts:DataPortConnectors>
+    <rts:DataPortConnectors rts:connectorId="42f0e98d-6258-41ad-a7bc-ac541107681f" rts:dataType="IDL:RTC/TimedLongSeq:1.0" rts:dataflowType="push" rts:interfaceType="corba_cdr" rts:name="human_edge1yhuman_edge1Y" rts:subscriptionType="new" xsi:type="rtsExt:dataport_connector_ext">
+        <rts:sourceDataPort rts:componentId="RTC:Nomiyama:Category:Human_Tracking:1.0.0" rts:instanceName="Human_Tracking0" rts:portName="Human_Tracking0.human_edge1y" xsi:type="rtsExt:target_port_ext">
+            <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost/DESKTOP-I7QNMGG.host_cxt/Human_Tracking0.rtc"/>
+        </rts:sourceDataPort>
+        <rts:targetDataPort rts:componentId="RTC:tajimanina:Category:logger:1.0.0" rts:instanceName="logger0" rts:portName="logger0.human_edge1Y" xsi:type="rtsExt:target_port_ext">
+            <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost/DESKTOP-I7QNMGG.host_cxt/logger0.rtc"/>
+        </rts:targetDataPort>
+        <rtsExt:Properties rtsExt:name="dataport.subscription_type" rtsExt:value="new"/>
+        <rtsExt:Properties rtsExt:name="dataport.inport"/>
+        <rtsExt:Properties rtsExt:name="dataport.interface_type" rtsExt:value="corba_cdr"/>
+        <rtsExt:Properties rtsExt:name="dataport.data_type" rtsExt:value="IDL:RTC/TimedLongSeq:1.0"/>
+        <rtsExt:Properties rtsExt:name="dataport.dataflow_type" rtsExt:value="push"/>
+        <rtsExt:Properties rtsExt:name="dataport.serializer.cdr.endian" rtsExt:value="little,big"/>
+    </rts:DataPortConnectors>
+    <rts:DataPortConnectors rts:connectorId="c97bf6e9-6ecf-41c5-be4a-afd9b36b1a24" rts:dataType="IDL:RTC/TimedLongSeq:1.0" rts:dataflowType="push" rts:interfaceType="corba_cdr" rts:name="human_edge1yhuman_edge1Y" rts:subscriptionType="new" xsi:type="rtsExt:dataport_connector_ext">
+        <rts:sourceDataPort rts:componentId="RTC:Nomiyama:Category:Human_Tracking:1.0.0" rts:instanceName="Human_Tracking0" rts:portName="Human_Tracking0.human_edge1y" xsi:type="rtsExt:target_port_ext">
+            <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost/DESKTOP-I7QNMGG.host_cxt/Human_Tracking0.rtc"/>
+        </rts:sourceDataPort>
+        <rts:targetDataPort rts:componentId="RTC:tajimanina:Category:ReceptionCommander:1.0.0" rts:instanceName="ReceptionCommander0" rts:portName="ReceptionCommander0.human_edge1Y" xsi:type="rtsExt:target_port_ext">
+            <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost/DESKTOP-I7QNMGG.host_cxt/ReceptionCommander0.rtc"/>
+        </rts:targetDataPort>
+        <rtsExt:Properties rtsExt:name="dataport.subscription_type" rtsExt:value="new"/>
+        <rtsExt:Properties rtsExt:name="dataport.inport"/>
+        <rtsExt:Properties rtsExt:name="dataport.interface_type" rtsExt:value="corba_cdr"/>
+        <rtsExt:Properties rtsExt:name="dataport.data_type" rtsExt:value="IDL:RTC/TimedLongSeq:1.0"/>
+        <rtsExt:Properties rtsExt:name="dataport.dataflow_type" rtsExt:value="push"/>
+        <rtsExt:Properties rtsExt:name="dataport.serializer.cdr.endian" rtsExt:value="little,big"/>
+    </rts:DataPortConnectors>
+    <rts:DataPortConnectors rts:connectorId="d77150c8-9f2f-4e8a-b495-cd2cf0bdab4b" rts:dataType="IDL:RTC/TimedLongSeq:1.0" rts:dataflowType="push" rts:interfaceType="corba_cdr" rts:name="human_edge2xhuman_edge2X" rts:subscriptionType="new" xsi:type="rtsExt:dataport_connector_ext">
+        <rts:sourceDataPort rts:componentId="RTC:Nomiyama:Category:Human_Tracking:1.0.0" rts:instanceName="Human_Tracking0" rts:portName="Human_Tracking0.human_edge2x" xsi:type="rtsExt:target_port_ext">
+            <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost/DESKTOP-I7QNMGG.host_cxt/Human_Tracking0.rtc"/>
+        </rts:sourceDataPort>
+        <rts:targetDataPort rts:componentId="RTC:tajimanina:Category:logger:1.0.0" rts:instanceName="logger0" rts:portName="logger0.human_edge2X" xsi:type="rtsExt:target_port_ext">
+            <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost/DESKTOP-I7QNMGG.host_cxt/logger0.rtc"/>
+        </rts:targetDataPort>
+        <rtsExt:Properties rtsExt:name="dataport.subscription_type" rtsExt:value="new"/>
+        <rtsExt:Properties rtsExt:name="dataport.inport"/>
+        <rtsExt:Properties rtsExt:name="dataport.interface_type" rtsExt:value="corba_cdr"/>
+        <rtsExt:Properties rtsExt:name="dataport.data_type" rtsExt:value="IDL:RTC/TimedLongSeq:1.0"/>
+        <rtsExt:Properties rtsExt:name="dataport.dataflow_type" rtsExt:value="push"/>
+        <rtsExt:Properties rtsExt:name="dataport.serializer.cdr.endian" rtsExt:value="little,big"/>
+    </rts:DataPortConnectors>
+    <rts:DataPortConnectors rts:connectorId="e98de78f-ddcd-41c5-a5de-3606212f6602" rts:dataType="IDL:RTC/TimedLongSeq:1.0" rts:dataflowType="push" rts:interfaceType="corba_cdr" rts:name="human_edge2xhuman_edge2X" rts:subscriptionType="new" xsi:type="rtsExt:dataport_connector_ext">
+        <rts:sourceDataPort rts:componentId="RTC:Nomiyama:Category:Human_Tracking:1.0.0" rts:instanceName="Human_Tracking0" rts:portName="Human_Tracking0.human_edge2x" xsi:type="rtsExt:target_port_ext">
+            <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost/DESKTOP-I7QNMGG.host_cxt/Human_Tracking0.rtc"/>
+        </rts:sourceDataPort>
+        <rts:targetDataPort rts:componentId="RTC:tajimanina:Category:ReceptionCommander:1.0.0" rts:instanceName="ReceptionCommander0" rts:portName="ReceptionCommander0.human_edge2X" xsi:type="rtsExt:target_port_ext">
+            <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost/DESKTOP-I7QNMGG.host_cxt/ReceptionCommander0.rtc"/>
+        </rts:targetDataPort>
+        <rtsExt:Properties rtsExt:name="dataport.subscription_type" rtsExt:value="new"/>
+        <rtsExt:Properties rtsExt:name="dataport.inport"/>
+        <rtsExt:Properties rtsExt:name="dataport.interface_type" rtsExt:value="corba_cdr"/>
+        <rtsExt:Properties rtsExt:name="dataport.data_type" rtsExt:value="IDL:RTC/TimedLongSeq:1.0"/>
+        <rtsExt:Properties rtsExt:name="dataport.dataflow_type" rtsExt:value="push"/>
+        <rtsExt:Properties rtsExt:name="dataport.serializer.cdr.endian" rtsExt:value="little,big"/>
+    </rts:DataPortConnectors>
+    <rts:DataPortConnectors rts:connectorId="b69e248e-d3f3-4170-95bc-9415e1395706" rts:dataType="IDL:RTC/TimedLongSeq:1.0" rts:dataflowType="push" rts:interfaceType="corba_cdr" rts:name="human_edge2yhuman_edge2Y" rts:subscriptionType="new" xsi:type="rtsExt:dataport_connector_ext">
+        <rts:sourceDataPort rts:componentId="RTC:Nomiyama:Category:Human_Tracking:1.0.0" rts:instanceName="Human_Tracking0" rts:portName="Human_Tracking0.human_edge2y" xsi:type="rtsExt:target_port_ext">
+            <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost/DESKTOP-I7QNMGG.host_cxt/Human_Tracking0.rtc"/>
+        </rts:sourceDataPort>
+        <rts:targetDataPort rts:componentId="RTC:tajimanina:Category:logger:1.0.0" rts:instanceName="logger0" rts:portName="logger0.human_edge2Y" xsi:type="rtsExt:target_port_ext">
+            <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost/DESKTOP-I7QNMGG.host_cxt/logger0.rtc"/>
+        </rts:targetDataPort>
+        <rtsExt:Properties rtsExt:name="dataport.subscription_type" rtsExt:value="new"/>
+        <rtsExt:Properties rtsExt:name="dataport.inport"/>
+        <rtsExt:Properties rtsExt:name="dataport.interface_type" rtsExt:value="corba_cdr"/>
+        <rtsExt:Properties rtsExt:name="dataport.data_type" rtsExt:value="IDL:RTC/TimedLongSeq:1.0"/>
+        <rtsExt:Properties rtsExt:name="dataport.dataflow_type" rtsExt:value="push"/>
+        <rtsExt:Properties rtsExt:name="dataport.serializer.cdr.endian" rtsExt:value="little,big"/>
+    </rts:DataPortConnectors>
+    <rts:DataPortConnectors rts:connectorId="a6ab9c4d-7ff5-4056-93e4-d0cd5bc17b02" rts:dataType="IDL:RTC/TimedLongSeq:1.0" rts:dataflowType="push" rts:interfaceType="corba_cdr" rts:name="human_edge2yhuman_edge2Y" rts:subscriptionType="new" xsi:type="rtsExt:dataport_connector_ext">
+        <rts:sourceDataPort rts:componentId="RTC:Nomiyama:Category:Human_Tracking:1.0.0" rts:instanceName="Human_Tracking0" rts:portName="Human_Tracking0.human_edge2y" xsi:type="rtsExt:target_port_ext">
+            <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost/DESKTOP-I7QNMGG.host_cxt/Human_Tracking0.rtc"/>
+        </rts:sourceDataPort>
+        <rts:targetDataPort rts:componentId="RTC:tajimanina:Category:ReceptionCommander:1.0.0" rts:instanceName="ReceptionCommander0" rts:portName="ReceptionCommander0.human_edge2Y" xsi:type="rtsExt:target_port_ext">
+            <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost/DESKTOP-I7QNMGG.host_cxt/ReceptionCommander0.rtc"/>
+        </rts:targetDataPort>
+        <rtsExt:Properties rtsExt:name="dataport.subscription_type" rtsExt:value="new"/>
+        <rtsExt:Properties rtsExt:name="dataport.inport"/>
+        <rtsExt:Properties rtsExt:name="dataport.interface_type" rtsExt:value="corba_cdr"/>
+        <rtsExt:Properties rtsExt:name="dataport.data_type" rtsExt:value="IDL:RTC/TimedLongSeq:1.0"/>
+        <rtsExt:Properties rtsExt:name="dataport.dataflow_type" rtsExt:value="push"/>
+        <rtsExt:Properties rtsExt:name="dataport.serializer.cdr.endian" rtsExt:value="little,big"/>
+    </rts:DataPortConnectors>
+    <rts:DataPortConnectors rts:connectorId="d893821b-06f7-47d8-a34e-a144c9713ec5" rts:dataType="IDL:RTC/TimedLong:1.0" rts:dataflowType="push" rts:interfaceType="corba_cdr" rts:name="people_waitwait_people" rts:subscriptionType="new" xsi:type="rtsExt:dataport_connector_ext">
+        <rts:sourceDataPort rts:componentId="RTC:Nomiyama:Category:Human_Tracking:1.0.0" rts:instanceName="Human_Tracking0" rts:portName="Human_Tracking0.people_wait" xsi:type="rtsExt:target_port_ext">
+            <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost/DESKTOP-I7QNMGG.host_cxt/Human_Tracking0.rtc"/>
+        </rts:sourceDataPort>
+        <rts:targetDataPort rts:componentId="RTC:tajimanina:Category:ReceptionCommander:1.0.0" rts:instanceName="ReceptionCommander0" rts:portName="ReceptionCommander0.wait_people" xsi:type="rtsExt:target_port_ext">
+            <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost/DESKTOP-I7QNMGG.host_cxt/ReceptionCommander0.rtc"/>
+        </rts:targetDataPort>
+        <rtsExt:Properties rtsExt:name="dataport.subscription_type" rtsExt:value="new"/>
+        <rtsExt:Properties rtsExt:name="dataport.inport"/>
+        <rtsExt:Properties rtsExt:name="dataport.interface_type" rtsExt:value="corba_cdr"/>
+        <rtsExt:Properties rtsExt:name="dataport.data_type" rtsExt:value="IDL:RTC/TimedLong:1.0"/>
+        <rtsExt:Properties rtsExt:name="dataport.dataflow_type" rtsExt:value="push"/>
+        <rtsExt:Properties rtsExt:name="dataport.serializer.cdr.endian" rtsExt:value="little,big"/>
+    </rts:DataPortConnectors>
+    <rts:DataPortConnectors rts:connectorId="8196744b-3c23-4cd1-bf04-34ce2212d809" rts:dataType="IDL:RTC/RangeData:1.0" rts:dataflowType="push" rts:interfaceType="corba_cdr" rts:name="RangeDatarange_data" rts:subscriptionType="new" xsi:type="rtsExt:dataport_connector_ext">
+        <rts:sourceDataPort rts:componentId="RTC:VenderName:Category:URG:1.0.0" rts:instanceName="URG0" rts:portName="URG0.RangeData" xsi:type="rtsExt:target_port_ext">
+            <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost/DESKTOP-I7QNMGG.host_cxt/URG0.rtc"/>
+        </rts:sourceDataPort>
+        <rts:targetDataPort rts:componentId="RTC:Nomiyama:Category:Human_Tracking:1.0.0" rts:instanceName="Human_Tracking0" rts:portName="Human_Tracking0.range_data" xsi:type="rtsExt:target_port_ext">
+            <rtsExt:Properties rtsExt:name="COMPONENT_PATH_ID" rtsExt:value="localhost/DESKTOP-I7QNMGG.host_cxt/Human_Tracking0.rtc"/>
+        </rts:targetDataPort>
+        <rtsExt:Properties rtsExt:name="dataport.dataflow_type" rtsExt:value="push"/>
+        <rtsExt:Properties rtsExt:name="dataport.serializer.cdr.endian" rtsExt:value="little,big"/>
+        <rtsExt:Properties rtsExt:name="dataport.data_type" rtsExt:value="IDL:RTC/RangeData:1.0"/>
+        <rtsExt:Properties rtsExt:name="dataport.interface_type" rtsExt:value="corba_cdr"/>
+        <rtsExt:Properties rtsExt:name="dataport.subscription_type" rtsExt:value="new"/>
+    </rts:DataPortConnectors>
+</rts:RtsProfile>
